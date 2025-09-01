@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #c50000;
+    color: white;
+  }
+  
+  header {
+    background-color: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #c50000;
+  }
+  
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-area h2 {
+    color: #c50000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  .logo-area img {
+    width: 60px;
+  }
+  
+  .login-link {
+    color: #c50000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .grid-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 160px;
+    gap: 15px;
+    padding: 30px;
+  }
+  
+  .item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .item:hover {
+    transform: scale(1.03);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .item strong {
+    font-size: 22px;
+  }
+  
+  .historia {
+    background-image: url('https://intprdbrscms.internacional.com.br/cms/assets/historia_banner_d4a3556377.jpg');
+  }
+  
+  .titulos {
+    background-image: url('https://intprdbrscms.internacional.com.br/cms/assets/titulos_banner_5ddbb7df65.jpg');
+  }
+  
+  .idolos {
+    background-image: url('https://intprdbrscms.internacional.com.br/cms/assets/idolos_banner_0f5a3cac9f.jpg');
+  }
+  
+  .beira-rio {
+    background-image: url('https://intprdbrscms.internacional.com.br/cms/assets/beira_rio_banner_a9ebabf941.jpg');
+    grid-column: span 2;
+  }
+  
+  .mascote {
+    background-image: url('https://intprdbrscms.internacional.com.br/cms/assets/mascote_banner_00947a0992.jpg');
+  }
+  
+  .ex-presidentes {
+    background-image: url('https://intprdbrscms.internacional.com.br/cms/assets/ex_presidentes_8e63aff524.jpg');
+    border: 3px solid #007bff;
+  }
+  
+  .hino {
+    background-image: url('https://intprdbrscms.internacional.com.br/cms/assets/hino_banner_d92689f0a8.jpg');
+  }
+  
+  .distintivos {
+    background-image: url('https://intprdbrscms.internacional.com.br/cms/assets/distintivos_banner_d78996e111.jpg');
+  }
+  
+  @media (max-width: 768px) {
+    .grid-menu {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .beira-rio {
+      grid-column: span 1;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .grid-menu {
+      grid-template-columns: 1fr;
+    }
+  }
+  

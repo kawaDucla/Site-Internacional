@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: white;
+    border-bottom: 5px solid #c50000;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-area img {
+    width: 60px;
+  }
+  
+  .logo-area h2 {
+    color: #c50000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  header h1 {
+    color: #c50000;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .login-link {
+    color: #c50000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .container {
+    display: flex;
+    height: calc(100vh - 90px);
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #c50000;
+    padding: 20px 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+  }
+  
+  .sidebar li {
+    padding: 10px 20px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .sidebar li.active {
+    background-color: white;
+  }
+  
+  .sidebar li.active a {
+    color: #c50000;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .left-column {
+    width: 40%;
+    background-color: #c50000;
+    color: white;
+    padding: 30px;
+    font-size: 14px;
+    overflow-y: auto;
+  }
+  
+  .left-column p {
+    margin-bottom: 15px;
+  }
+  
+  .left-column strong {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .right-column {
+    flex: 1;
+    background-image: url('https://logodownload.org/wp-content/uploads/2015/05/internacional-logo-escudo.png');
+    background-size: cover;
+    background-position: center;
+  }
+  

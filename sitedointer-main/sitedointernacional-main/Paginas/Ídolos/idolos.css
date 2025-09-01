@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e60012;
+    color: #fff;
+  }
+  
+  header .logo h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    margin-top: 40px;
+  }
+  
+  .idolos h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .grid .item {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .grid .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .grid .item span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #e60012;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+  
