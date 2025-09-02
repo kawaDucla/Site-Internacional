@@ -1,46 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>O Clube do Povo</title>
-  <link rel="stylesheet" href="home.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
-  <header>
-    <div class="logo-area">
-      <img src="https://www.internacional.com.br/img/scinternacional.svg" alt="Logo Inter" />
-    </div>
-    <a href="../Login/pag1login.html">Acesse sua conta</a>
+  <!--Cabeçalho-->
+  <header class="cabecalho">
+    <img class="logo" src="./imagens/logo-inter.svg" alt="logo-inter">
+    <div class="historia">História</div>
+    <div class="cabecalho-spacer"></div>
+    <a class="acessarconta" href="../Login/pag1login.html">Acesse sua conta</a>
   </header>
-
-  <main class="grid-menu">
-    <a class="item historia" href="../História/historiapag.html">
-      <div class="overlay">NOSSA<br><strong>HISTÓRIA</strong></div>
-    </a>
-    <a class="item titulos" href="../TItulos/pagtitulos.html">
-      <div class="overlay">NOSSOS<br><strong>TÍTULOS</strong></div>
-    </a>
-    <a class="item idolos" href="../Ídolos/idolosvelhos.html">
-      <div class="overlay">NOSSOS<br><strong>ÍDOLOS</strong></div>
-    </a>
-    <a class="item beira-rio" href="../Beira-Rio/beirapag.html">
-      <div class="overlay">HISTÓRIA DO<br><strong>BEIRA-RIO</strong></div>
-    </a>
-    <a class="item mascote" href="../Mascote/sacipag.html">
-      <div class="overlay"><strong>MASCOTE</strong></div>
-    </a>
-    <a class="item ex-presidentes" href="../Ex-Presidentes/ex.html">
-      <div class="overlay"><strong>EX-PRESIDENTES</strong></div>
-    </a>
-    <a class="item hino" href="../Hino/hino.html">
-      <div class="overlay"><strong>HINO</strong></div>
-    </a>
-    <a class="item distintivos" href="../Distintivos/logo.html">
-      <div class="overlay"><strong>DISTINTIVOS</strong></div>
-    </a>
+  <main>
+    <div class="container">
+      <div class="card" style="background-image: url('imagens/historia.jpg')"></div>
+      <div class="card" style="background-image: url('imagens/titulos.jpg')"></div>
+      <div class="card" style="background-image: url('imagens/idolos.jpg')"></div>
+      <div class="card beira-rio" style="background-image: url('imagens/beira-rio.jpg')"></div>
+      <div class="card mascote" style="background-image: url('imagens/mascote.jpg')"></div>
+      <div class="card ex-presidentes" style="background-image: url('imagens/ex-presidentes.jpg')"></div>
+      <div class="card" style="background-image: url('imagens/hino.jpg')">
+        <h2>Hino</h2>
+      </div>
+      <div class="card" style="background-image: url('imagens/distintivos.jpg')">
+        <h2>Distintivos</h2>
+      </div>
+    </div>
   </main>
 </body>
 
